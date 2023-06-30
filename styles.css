@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+    font-family: Tahoma;
+}
+
+.intro{
+    text-align: center;
+    margin: 10px;
+    
+}
+
+form{
+    background-color: aquamarine;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 10px auto;
+    padding-bottom: 2em;
+    padding: 2em;
+}
+
+input,textarea,select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+
+input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.input-radio{
+    display: inline-block;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+.section{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 30%;
+    background-color: gray;
+    border-color: white;
+    margin: 1em auto;
+}
