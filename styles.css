@@ -1,21 +1,21 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: blueviolet;
+body {
+    background-color: rgb(81, 8, 150);
     font-family: Tahoma;
 }
 
-.intro{
+.intro {
     text-align: center;
     margin: 10px;
-    
+
 }
 
-form{
+form {
     background-color: aquamarine;
     width: 60vw;
     max-width: 500px;
@@ -25,39 +25,43 @@ form{
     padding: 2em;
 }
 
-input,textarea,select {
+input,
+textarea,
+select {
     margin: 10px 0 0 0;
     width: 100%;
     min-height: 2em;
-  }
+}
 
-input, textarea {
+input,
+textarea {
     background-color: #0a0a23;
     border: 1px solid #0a0a23;
     color: #ffffff;
-  }
+}
 
-label{
+label {
     display: block;
     margin: 0.5rem 0;
 }
 
-.input-radio{
+.input-radio {
     display: inline-block;
     width: unset;
     margin: 0 0.5em 0 0;
     vertical-align: middle;
 }
 
-.section{
+.section {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     display: block;
     width: 30%;
-    background-color: gray;
+    background-color: cyan;
+    color: black;
     border-color: white;
     margin: 1em auto;
 }

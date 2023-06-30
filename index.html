@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>Survey Form</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
@@ -11,16 +12,20 @@
         <h1 id="title">Survey Form</h1>
         <p id="description">Ingrese los datos solicitados a continuacion</p>
     </div>
-  
-  <form id="survey-form">
+
+    <form id="survey-form">
         <div class="section">
-            <label for="name"id="name-label">Name: <input type="text" id="name" placeholder="Ana Maria" required></label>
-            <label id="email-label">Email: <input type="email" id="email" placeholder="correoprueba@gmail.com" required></label>
-            <label id="number-label">Age: <input type="number" id="number" min="18" max="99" placeholder="30"></label>
+            <label for="name" id="name-label">Name: <input type="text" id="name" placeholder="Ana Maria"
+                    required /></label>
+            <label id="email-label">Email:
+                <input type="email" id="email" placeholder="correoprueba@gmail.com" required /></label>
+            <label id="number-label">Age:
+                <input type="number" id="number" min="18" max="99" placeholder="30" /></label>
         </div>
         <div class="section">
-            <label for="dropdown"> A que te dedicas?
-                <select id="dropdown" name="dropdown"> 
+            <label for="dropdown">
+                A que te dedicas?
+                <select id="dropdown" name="dropdown">
                     <option value="">(Select one)</option>
                     <option value="1">Student</option>
                     <option value="2">Work</option>
@@ -29,24 +34,23 @@
             </label>
         </div>
         <div class="section">
-            <label for="masculino"><input type="radio" id="masculino" name="genero" value="male" class="input-radio"  checked>Masculino</label>
-            <label for="femenino"><input type="radio" id="femenino" name="genero" value="female" class="input-radio" >Femenino</label>
-            <label for="terminos"><input type="checkbox" id="terminos" value="terms" class="input-radio">Acepto los terminos y condiciones</label>
-            <label for="noticias"><input type="checkbox" id="noticias" value="news" class="input-radio">Quiero recibir noticias</label>
+            <label for="masculino"><input type="radio" id="masculino" name="genero" value="male" class="input-radio"
+                    checked />Masculino</label>
+            <label for="femenino"><input type="radio" id="femenino" name="genero" value="female"
+                    class="input-radio" />Femenino</label>
+            <label for="terminos"><input type="checkbox" id="terminos" value="terms" class="input-radio" />Acepto los
+                terminos y condiciones</label>
+            <label for="noticias"><input type="checkbox" id="noticias" value="news" class="input-radio" />Quiero recibir
+                noticias</label>
         </div>
         <div class="section">
             <label for="description">Danos una descripcion de tu persona.
-                <textarea id="description" name="description" rows="6" cols="30" placeholder="Hablanos sobre ti"></textarea>
+                <textarea id="description" name="description" rows="6" cols="30"
+                    placeholder="Hablanos sobre ti"></textarea>
             </label>
         </div>
-        <input type="submit" id="submit">
-    
-
-  </form>
-
-
+        <input type="submit" id="submit" />
+    </form>
 </body>
-
-
 
 </html>
